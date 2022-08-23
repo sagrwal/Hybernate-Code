@@ -1,13 +1,15 @@
-package com.hibernate.demo;
+package com.hibernate.demo1;
 
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
 
-import com.hibernate.demo.entity.*;
+import com.hibernate.demo.entity.Instructor;
+import com.hibernate.demo.entity.InstructorDetail;
 import com.hibernate.demo.entity.Student;
+import com.hibernate.demo1.entity.*;
 
-public class DeleteDemo {
+public class DeleteDemo2 {
 
 	public static void main(String[] args) {
 		
@@ -27,7 +29,7 @@ public class DeleteDemo {
 			session.beginTransaction();
 			
 			//get instructor by primary key/id
-			int theId=1;
+			int theId=3;
 			Instructor tempInstructor =session.get(Instructor.class, theId);
 			
 			System.out.println("Found instructor:"+tempInstructor);
