@@ -14,6 +14,9 @@ import javax.persistence.OneToMany;
 import javax.persistence.OneToOne;
 import javax.persistence.Table;
 
+import com.hibernate.demo2.entity.Course;
+import com.hibernate.demo2.entity.InstructorDetail;
+
 
 
 @Entity

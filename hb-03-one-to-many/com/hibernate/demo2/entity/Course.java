@@ -10,6 +10,8 @@ import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
 import javax.persistence.Table;
 
+import com.hibernate.demo2.entity.Instructor;
+
 @Entity
 @Table(name="course")
 public class Course {

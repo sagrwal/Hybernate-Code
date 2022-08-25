@@ -4,8 +4,7 @@ import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
 
-import com.hibernate.demo2.entity.InstructorDetail;
-import com.hibernate.demo2.entity.Course;
+import com.hibernate.demo2.entity.Instructor;
 import com.hibernate.demo2.entity.*;
 
 public class CreateCoursesDemo {

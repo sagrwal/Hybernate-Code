@@ -5,7 +5,7 @@ import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
 
 import com.hibernate.demo.entity.InstructorDetail;
-import com.hibernate.demo1.entity.*;
+import com.hibernate.demo.entity.*;
 
 public class DeleteDemo {
 

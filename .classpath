@@ -3,6 +3,9 @@
 	<classpathentry kind="src" path="hb-01-one-to-one-uni"/>
 	<classpathentry kind="src" path="hb-02-one-to-one-bi"/>
 	<classpathentry kind="src" path="hb-03-one-to-many"/>
+	<classpathentry kind="src" path="hb-eager-vs-lazy-demo"/>
+	<classpathentry kind="src" path="hb-04-one-to-many-uni"/>
+	<classpathentry kind="src" path="hb-05-many-to-many"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-17">
 		<attributes>
 			<attribute name="module" value="true"/>
