@@ -14,7 +14,14 @@ public class CreateCoursesAndStudentDemo {
 		
 		//create session factory
 		//SessionFactory factory = new Configuration().configure().addAnnotatedClass(Student.class).buildSessionFactory();//default
-		SessionFactory factory = new Configuration().configure("hibernate.cfg.xml").addAnnotatedClass(Instructor.class).addAnnotatedClass(InstructorDetail.class).addAnnotatedClass(Course.class).addAnnotatedClass(Review.class).addAnnotatedClass(Student.class).buildSessionFactory();
+		SessionFactory factory = new Configuration()
+				.configure("hibernate.cfg.xml")
+				.addAnnotatedClass(Instructor.class)
+				.addAnnotatedClass(InstructorDetail.class)
+				.addAnnotatedClass(Course.class)
+				.addAnnotatedClass(Review.class)
+				.addAnnotatedClass(Student.class)
+				.buildSessionFactory();
 		
 		//create session
 		Session session = factory.getCurrentSession();
@@ -25,7 +32,7 @@ public class CreateCoursesAndStudentDemo {
 			session.beginTransaction();
 			
 			//create a course
-			Course tempCourse = new Course("Hibernate-One-to-Many Mapping");
+			Course tempCourse = new Course("Java");
 			
 			//save the course
 			System.out.println("\nSaving the course...");
